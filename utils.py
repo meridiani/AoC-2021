@@ -27,4 +27,3 @@ def load_string_data_split_on_space(file):
         data = [str(line).strip().split() for line in f]
         f.close()
     return data
-

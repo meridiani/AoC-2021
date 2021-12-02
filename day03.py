@@ -1,7 +1,6 @@
-#!/usr/bin/env python
 import utils
 
-DATA = 'data/day03/testdata'
+#DATA = 'data/day03/testdata'
 DATA = 'data/day03/realdata'
 
 report = utils.load_string_data(DATA)
@@ -116,8 +115,6 @@ def find_co2_scrubber_rating(initial_list, initial_position):
 
 o2_rating  = find_oxygen_generator_rating(initial_list, initial_position)
 co2_rating = find_co2_scrubber_rating(initial_list, initial_position)
-
-print(o2_rating, co2_rating)
 
 print('The first answer is:', int(initial_d_gamma,2)*int(initial_d_epsilon,2))
 print('The second answer is:', int(o2_rating[0],2)*int(co2_rating[0],2))

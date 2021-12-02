@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import utils
 
 #DATA = 'data/day02/testdata'

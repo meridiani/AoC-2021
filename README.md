@@ -42,3 +42,14 @@ source virtualenv/bin/activate
 ```
 
 Useful shared functions go in utils.py
+
+# Unit testing
+This is a work in progress
+
+Each module has a corresponding unit test file in `tests`
+
+To run:
+
+```
+python -m unittest tests/utils_test.py 
+```
