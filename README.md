@@ -16,13 +16,17 @@ I'm using virtualenv to manage python dependencies.
 
 To set up virtualenv on a linux machine:
 
-`cd working_directory`
-`python3.8 -m venv virtualenv`
+```
+cd working_directory
+python3.8 -m venv virtualenv
+```
 
 Then to activate your session:
+
 `source virtualenv/bin/activate`
 
 And then deactivate when you are done:
+
 `deactivate`
 
 ## Solution code
@@ -37,4 +41,4 @@ source virtualenv/bin/activate
 ./day01.py
 ```
 
-Useful shared function go in utils.py
+Useful shared functions go in utils.py
