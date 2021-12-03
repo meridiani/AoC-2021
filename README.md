@@ -29,6 +29,13 @@ And then deactivate when you are done:
 
 `deactivate`
 
+## Set up a new day
+A bash script has been provided to set up a new day like so:
+
+```
+./new_day.sh day09
+```
+
 ## Solution code
 
 Each days data is in `data/day{number}/` and is split into testdata and realdata
