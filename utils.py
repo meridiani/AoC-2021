@@ -8,6 +8,16 @@ def load_data(file):
         f.close()
     return data
 
+def load_lists_data(file):
+    try:
+        f = open(file,'r')
+    except FileNotFoundError as err:
+        print(f"Maria! There is an Error: {err}")
+    else:    
+        data = [[line.strip()] for line in f]
+        f.close()
+    return data
+
 def load_string_data(file):
     try:
         f = open(file,'r')
