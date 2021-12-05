@@ -5,9 +5,9 @@ You can find the challenges here: [Advent of Code 2021](https://adventofcode.com
 
 # My personal goals for this year
 
-* beat last year's record of eight days in a row
-* use python virtualenv
-* write some unit tests
+🤷‍♀️ beat last year's record of eight days  
+✔️ use python virtualenv  
+✔️ write some unit tests  
 
 # Using this repo
 
