@@ -22,4 +22,9 @@ sed -i 's/dayXX/'"${1}"'/g' ${1}.py
 cp templates/day_test_template.py ./tests/${1}_test.py
 sed -i 's/dayXX/'"${1}"'/g' tests/${1}_test.py
 
+### Set up data files
+mkdir data/${1}
+touch data/${1}/realdata
+touch data/${1}/testdata
+
 echo 'OK to go!'
