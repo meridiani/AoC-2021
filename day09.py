@@ -78,6 +78,14 @@ for x in range(max_x):
             # must be in the middle
             loc_list = [loc, heightmap[y-1][x], heightmap[y][x+1], heightmap[y+1][x], heightmap[y][x-1]]
             check_loc_for_low_point(low_points, loc_list)
+#######################################################################
+# for part 2 we need to find basins
+# to do this we need to find areas that are bound by nines
+# sum up all the elements within the areas of nines
+# find the three largest basins and multiply their sizes together
+
+
+
 
 #######################################################################
 print('The first answer is:', (sum(low_points) + len(low_points)))
